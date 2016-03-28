@@ -83,113 +83,113 @@
     allocate(XROTOR(3,N+1))
     allocate(XCONTROL_BLAde(3,NC,N))
     allocate(xtrailedge_blade(3,n+1))
-    allocate(XNOde(3,NC,N+1,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(XCONTROL(3,NC,N,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(Xtrail_edge(3,N+1,rotors(1)%number_of_blades,number_of_rotors) )
+    allocate(XNOde(3,NC,N+1,rotors(1)%number_of_blades))
+    allocate(XCONTROL(3,NC,N,rotors(1)%number_of_blades))
+    allocate(Xtrail_edge(3,N+1,rotors(1)%number_of_blades) )
     allocate(xgrid_node(3,Nc+1,N+1))
 
     allocate(xflap0(3,N+1))
-    allocate(xcontrol0(3,N,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(xnode0(3,N+1,rotors(1)%number_of_blades,number_of_rotors))
+    allocate(xcontrol0(3,N,rotors(1)%number_of_blades))
+    allocate(xnode0(3,N+1,rotors(1)%number_of_blades))
 
     allocate(C(N))
     allocate(C_NOde(N+1))
-    allocate(BETA(3,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(VB(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(BETA(3,rotors(1)%number_of_blades,LMAX))
+    allocate(VB(N,rotors(1)%number_of_blades,LMAX))
     allocate(RC_NEAR(N+1))
 
-    allocate(THETA(rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITAIn(N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITATIn(N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITA_CENTERIn(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITA(N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITAT(N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(SITA_CENTER(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(THETA(rotors(1)%number_of_blades,LMAX))
+    allocate(SITAIn(N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(SITATIn(N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(SITA_CENTERIn(N,rotors(1)%number_of_blades,LMAX))
+    allocate(SITA(N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(SITAT(N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(SITA_CENTER(N,rotors(1)%number_of_blades,LMAX))
 
-    allocate(R0(3,KMAX,rotors(1)%number_of_blades,LMAX,number_of_rotors))                                   !Î²¼£Ä£¿é
-    allocate(V0(3,KMAX,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(FTIP0(KMAX,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(RC0(KMAX,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(FB0(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(fb_bound0(NC,N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(FNEAR0(NNEAR,N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(ROLD(3,KMAX,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(R0(3,KMAX,rotors(1)%number_of_blades,LMAX))                                   !Î²¼£Ä£¿é
+    allocate(V0(3,KMAX,rotors(1)%number_of_blades,LMAX))
+    allocate(FTIP0(KMAX,rotors(1)%number_of_blades,LMAX))
+    allocate(RC0(KMAX,rotors(1)%number_of_blades,LMAX))
+    allocate(FB0(N,rotors(1)%number_of_blades,LMAX))
+    allocate(fb_bound0(NC,N,rotors(1)%number_of_blades,LMAX))
+    allocate(FNEAR0(NNEAR,N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(ROLD(3,KMAX,rotors(1)%number_of_blades,LMAX))
 
     ! * * * * * * * * * * * * * * * * * *
     !      Aerodynamic module           *
     ! * * * * * * * * * * * * * * * * * *
-    allocate(AFLA(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(CM_B(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(AFLA(N,rotors(1)%number_of_blades,LMAX))
+    allocate(CM_B(N,rotors(1)%number_of_blades,LMAX))
 
-    allocate(CL_B(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(CD_B(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(CLM_B(N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(CL_B(N,rotors(1)%number_of_blades,LMAX))
+    allocate(CD_B(N,rotors(1)%number_of_blades,LMAX))
+    allocate(CLM_B(N,rotors(1)%number_of_blades,LMAX))
 
-    allocate(Force_cell(3,N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(moment_cell(3,N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(Force_cell(3,N,rotors(1)%number_of_blades,LMAX))
+    allocate(moment_cell(3,N,rotors(1)%number_of_blades,LMAX))
 
-    allocate(Force_section(3,N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(moment_section(3,N+1,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(Force_section(3,N+1,rotors(1)%number_of_blades,LMAX))
+    allocate(moment_section(3,N+1,rotors(1)%number_of_blades,LMAX))
 
-    allocate(Force_hub(3,LMAX,number_of_rotors))
-    allocate(Moment_hub(3,LMAX,number_of_rotors))
+    allocate(Force_hub(3,LMAX))
+    allocate(Moment_hub(3,LMAX))
 
-    allocate(Force_fuselage(3,Lmax,number_of_rotors))
-    allocate(Moment_fuselage(3,Lmax,number_of_rotors))
+    allocate(Force_fuselage(3,Lmax))
+    allocate(Moment_fuselage(3,Lmax))
 
-    allocate(CT_ROTOR(LMAX,number_of_rotors))
-    allocate(CQ_ROTOR(LMAX,number_of_rotors))
+    allocate(CT_ROTOR(LMAX))
+    allocate(CQ_ROTOR(LMAX))
 
-    allocate(CL_Rotor(Lmax,number_of_rotors))
-    allocate(CD_Rotor(Lmax,number_of_rotors))
+    allocate(CL_Rotor(Lmax))
+    allocate(CD_Rotor(Lmax))
 
-    allocate(force_flap_hinge(3,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(moment_flap_hinge(3,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(MFLAP(rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    allocate(force_flap_hinge(3,rotors(1)%number_of_blades,LMAX))
+    allocate(moment_flap_hinge(3,rotors(1)%number_of_blades,LMAX))
+    allocate(MFLAP(rotors(1)%number_of_blades,LMAX))
 
-    ALLOCATE(V_IND(3,N,rotors(1)%number_of_blades,LMAX,number_of_rotors))
+    ALLOCATE(V_IND(3,N,rotors(1)%number_of_blades,LMAX))
 
 
-    allocate(R(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))                                         !Î²¼£µü´úÄ£¿é
-    allocate(RNEW(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(GEOMETRY_FAR_NEAR_BOUND(3*KMAX*rotors(1)%number_of_blades*number_of_rotors,(KMAX-1+(NNEAR-1)*(N+1)+NC*N)*rotors(1)%number_of_blades*number_of_rotors))
-    allocate(Circulation_FAR_NEAR_BOUND((KMAX-1+(NNEAR-1)*(N+1)+NC*N)*rotors(1)%number_of_blades*number_of_rotors))
-    allocate(NBC0(N*rotors(1)%number_of_blades*number_of_rotors,N*rotors(1)%number_of_blades*number_of_rotors))
-    allocate(NBC(NC*N*rotors(1)%number_of_blades*number_of_rotors,NC*N*rotors(1)%number_of_blades*number_of_rotors))
-    allocate(IBC(NC*N*rotors(1)%number_of_blades*number_of_rotors,NC*N*rotors(1)%number_of_blades*number_of_rotors,LMAX))
-    allocate(ipiv(NC*N*rotors(1)%number_of_blades*number_of_rotors,LMAX))
-    allocate(FTIP(KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(RC(KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(FB(N,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(fb_bound(NC,N,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(RNEAR(3,NNEAR,N+1,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(FNEAR(NNEAR,N+1,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(V(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(VPRE1(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(VPRE2(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(VCOR1(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
-    allocate(VCOR2(3,KMAX,rotors(1)%number_of_blades,number_of_rotors))
+    allocate(R(3,KMAX,rotors(1)%number_of_blades))                                         !Î²¼£µü´úÄ£¿é
+    allocate(RNEW(3,KMAX,rotors(1)%number_of_blades))
+    allocate(GEOMETRY_FAR_NEAR_BOUND(3*KMAX*rotors(1)%number_of_blades,(KMAX-1+(NNEAR-1)*(N+1)+NC*N)*rotors(1)%number_of_blades))
+    allocate(Circulation_FAR_NEAR_BOUND((KMAX-1+(NNEAR-1)*(N+1)+NC*N)*rotors(1)%number_of_blades))
+    allocate(NBC0(N*rotors(1)%number_of_blades,N*rotors(1)%number_of_blades))
+    allocate(NBC(NC*N*rotors(1)%number_of_blades,NC*N*rotors(1)%number_of_blades))
+    allocate(IBC(NC*N*rotors(1)%number_of_blades,NC*N*rotors(1)%number_of_blades,LMAX))
+    allocate(ipiv(NC*N*rotors(1)%number_of_blades,LMAX))
+    allocate(FTIP(KMAX,rotors(1)%number_of_blades))
+    allocate(RC(KMAX,rotors(1)%number_of_blades))
+    allocate(FB(N,rotors(1)%number_of_blades))
+    allocate(fb_bound(NC,N,rotors(1)%number_of_blades))
+    allocate(RNEAR(3,NNEAR,N+1,rotors(1)%number_of_blades))
+    allocate(FNEAR(NNEAR,N+1,rotors(1)%number_of_blades))
+    allocate(V(3,KMAX,rotors(1)%number_of_blades))
+    allocate(VPRE1(3,KMAX,rotors(1)%number_of_blades))
+    allocate(VPRE2(3,KMAX,rotors(1)%number_of_blades))
+    allocate(VCOR1(3,KMAX,rotors(1)%number_of_blades))
+    allocate(VCOR2(3,KMAX,rotors(1)%number_of_blades))
 
 
 
 
     allocate(XEVAL(3,NTEST))                                       !²âÊÔµãÄ£¿é
-    allocate(VTEST(3,NTEST,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(RABUDATEST(NTEST,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(MIUTEST(NTEST,rotors(1)%number_of_blades,LMAX,number_of_rotors))
-    allocate(TIAL(21,N,rotors(1)%number_of_blades,number_of_rotors))
+    allocate(VTEST(3,NTEST,rotors(1)%number_of_blades,LMAX))
+    allocate(RABUDATEST(NTEST,rotors(1)%number_of_blades,LMAX))
+    allocate(MIUTEST(NTEST,rotors(1)%number_of_blades,LMAX))
+    allocate(TIAL(21,N,rotors(1)%number_of_blades))
 
     IALLOCATE = 0
     NCELLR=N*LMAX                                                   ! Éú³ÉÍø¸ñ
     NNOdeR=(N+1)*LMAX
-    NCELLW=(KMAX-1)*rotors(1)%number_of_blades*number_of_rotors
-    NNOdeW=KMAX*rotors(1)%number_of_blades*number_of_rotors
-    NOdeBLAde=rotors(1)%number_of_blades*(N+1)*(NC+1)*number_of_rotors
-    NCELLBLAde=rotors(1)%number_of_blades*N*NC*number_of_rotors
-    NOdeNEAR=NNEAR*(N+1)*rotors(1)%number_of_blades*number_of_rotors
-    NCELLNEAR=(NNEAR-1)*(N+1)*rotors(1)%number_of_blades*number_of_rotors
+    NCELLW=(KMAX-1)*rotors(1)%number_of_blades
+    NNOdeW=KMAX*rotors(1)%number_of_blades
+    NOdeBLAde=rotors(1)%number_of_blades*(N+1)*(NC+1)
+    NCELLBLAde=rotors(1)%number_of_blades*N*NC
+    NOdeNEAR=NNEAR*(N+1)*rotors(1)%number_of_blades
+    NCELLNEAR=(NNEAR-1)*(N+1)*rotors(1)%number_of_blades
     allocate(ICELL(4,NCELLR))
-    allocate(MCELL(2,KMAX-1,rotors(1)%number_of_blades,number_of_rotors))
+    allocate(MCELL(2,KMAX-1,rotors(1)%number_of_blades))
     allocate(COOR(2,NNOdeR))
     allocate(ICELLBLAde(4,NCELLBLAde))
     allocate(ICELLNEAR(2,NCELLNEAR))

@@ -19,24 +19,24 @@
     real,allocatable    :: XROTOR(:,:)
     real,allocatable    :: XCONTROL_BLAde(:,:,:)
     real,allocatable    :: xtrailedge_blade(:,:)
-    real,allocatable    :: XNOde(:,:,:,:,:)
-    real,allocatable    :: XCONTROL(:,:,:,:,:)
-    real,allocatable    :: Xtrail_edge(:,:,:,:)
+    real,allocatable    :: XNOde(:,:,:,:)
+    real,allocatable    :: XCONTROL(:,:,:,:)
+    real,allocatable    :: Xtrail_edge(:,:,:)
     real,allocatable    :: xgrid_node(:,:,:)
     real,allocatable    :: xflap0(:,:)
-    real,allocatable    :: xcontrol0(:,:,:,:)
-    real,allocatable    :: xnode0(:,:,:,:)
+    real,allocatable    :: xcontrol0(:,:,:)
+    real,allocatable    :: xnode0(:,:,:)
     real,allocatable    :: C(:)
     real,allocatable    :: C_NOde(:)
-    real,allocatable    :: THETA(:,:,:)
-    real,allocatable    :: SITAIn(:,:,:,:)
-    real,allocatable    :: SITATIn(:,:,:,:)
-    real,allocatable    :: SITA_CENTERIn(:,:,:,:)
-    real,allocatable    :: SITA(:,:,:,:)
-    real,allocatable    :: SITAT(:,:,:,:)
-    real,allocatable    :: SITA_CENTER(:,:,:,:)
-    real,allocatable    :: BETA(:,:,:,:)
-    real,allocatable    :: VB(:,:,:,:)
+    real,allocatable    :: THETA(:,:)
+    real,allocatable    :: SITAIn(:,:,:)
+    real,allocatable    :: SITATIn(:,:,:)
+    real,allocatable    :: SITA_CENTERIn(:,:,:)
+    real,allocatable    :: SITA(:,:,:)
+    real,allocatable    :: SITAT(:,:,:)
+    real,allocatable    :: SITA_CENTER(:,:,:)
+    real,allocatable    :: BETA(:,:,:)
+    real,allocatable    :: VB(:,:,:)
     real,allocatable    :: RC_NEAR(:)
     integer,allocatable :: Nmuber_part(:)
     integer,allocatable :: IP_airoil_r(:,:)
@@ -46,71 +46,71 @@
 
     module FREE_WAKE                                               !尾迹模块
     implicit none
-    real,allocatable :: R0(:,:,:,:,:)
-    real,allocatable :: V0(:,:,:,:,:)
-    real,allocatable :: FTIP0(:,:,:,:)
-    real,allocatable :: RC0(:,:,:,:)
-    real,allocatable :: FB0(:,:,:,:)
-    real,allocatable :: FNEAR0(:,:,:,:,:)
-    real,allocatable :: fb_bound0(:,:,:,:,:)
-    real,allocatable :: ROLD(:,:,:,:,:)
+    real,allocatable :: R0(:,:,:,:)
+    real,allocatable :: V0(:,:,:,:)
+    real,allocatable :: FTIP0(:,:,:)
+    real,allocatable :: RC0(:,:,:)
+    real,allocatable :: FB0(:,:,:)
+    real,allocatable :: FNEAR0(:,:,:,:)
+    real,allocatable :: fb_bound0(:,:,:,:)
+    real,allocatable :: ROLD(:,:,:,:)
     end module
 
     module aerodynamic_force                    ! aerodynamic force
     implicit none
-    real,allocatable :: AFLA(:,:,:,:)
-    real,allocatable :: CM_B(:,:,:,:)
+    real,allocatable :: AFLA(:,:,:)
+    real,allocatable :: CM_B(:,:,:)
 
-    real,allocatable :: CL_B(:,:,:,:)
-    real,allocatable :: CD_B(:,:,:,:)
-    real,allocatable :: CLM_B(:,:,:,:)
+    real,allocatable :: CL_B(:,:,:)
+    real,allocatable :: CD_B(:,:,:)
+    real,allocatable :: CLM_B(:,:,:)
 
-    real,allocatable :: Force_cell(:,:,:,:,:)
-    real,allocatable :: moment_cell(:,:,:,:,:)
+    real,allocatable :: Force_cell(:,:,:,:)
+    real,allocatable :: moment_cell(:,:,:,:)
 
-    real,allocatable :: Force_section(:,:,:,:,:)
-    real,allocatable :: moment_section(:,:,:,:,:)
+    real,allocatable :: Force_section(:,:,:,:)
+    real,allocatable :: moment_section(:,:,:,:)
 
-    real,allocatable :: Force_hub(:,:,:)
-    real,allocatable :: Moment_hub(:,:,:)
+    real,allocatable :: Force_hub(:,:)
+    real,allocatable :: Moment_hub(:,:)
 
-    real,allocatable :: Force_fuselage(:,:,:)
-    real,allocatable :: Moment_fuselage(:,:,:)
+    real,allocatable :: Force_fuselage(:,:)
+    real,allocatable :: Moment_fuselage(:,:)
 
-    real,allocatable :: CT_ROTOR(:,:)
-    real,allocatable :: CQ_ROTOR(:,:)
+    real,allocatable :: CT_ROTOR(:)
+    real,allocatable :: CQ_ROTOR(:)
 
-    real,allocatable :: CL_Rotor(:,:)
-    real,allocatable :: CD_Rotor(:,:)
+    real,allocatable :: CL_Rotor(:)
+    real,allocatable :: CD_Rotor(:)
 
-    real,allocatable :: force_flap_hinge(:,:,:,:)
-    real,allocatable :: moment_flap_hinge(:,:,:,:)
-    real,allocatable :: MFLAP(:,:,:)
+    real,allocatable :: force_flap_hinge(:,:,:)
+    real,allocatable :: moment_flap_hinge(:,:,:)
+    real,allocatable :: MFLAP(:,:)
 
-    REAL,ALLOCATABLE ::V_IND(:,:,:,:,:)
+    REAL,ALLOCATABLE ::V_IND(:,:,:,:)
     end module
 
     module FREE_WAKE_ITERATION_MODULE                              !尾迹迭代模块
     implicit none
-    real,allocatable :: R(:,:,:,:)
-    real,allocatable :: RNEW(:,:,:,:)
+    real,allocatable :: R(:,:,:)
+    real,allocatable :: RNEW(:,:,:)
     real,allocatable :: GEOMETRY_FAR_NEAR_BOUND(:,:)
     real,allocatable :: Circulation_FAR_NEAR_BOUND(:)
     real,allocatable :: NBC0(:,:)
     real,allocatable :: NBC(:,:)
     real,allocatable :: IBC(:,:,:)
     integer,allocatable :: ipiv(:,:)
-    real,allocatable :: FTIP(:,:,:)
-    real,allocatable :: RC(:,:,:)
-    real,allocatable :: FB(:,:,:)
-    real,allocatable :: fb_bound(:,:,:,:)
-    real,allocatable :: RNEAR(:,:,:,:,:)
-    real,allocatable :: FNEAR(:,:,:,:)
-    real,allocatable :: V(:,:,:,:)
-    real,allocatable :: VPRE1(:,:,:,:)
-    real,allocatable :: VPRE2(:,:,:,:)
-    real,allocatable :: VCOR1(:,:,:,:)
-    real,allocatable :: VCOR2(:,:,:,:)
+    real,allocatable :: FTIP(:,:)
+    real,allocatable :: RC(:,:)
+    real,allocatable :: FB(:,:)
+    real,allocatable :: fb_bound(:,:,:)
+    real,allocatable :: RNEAR(:,:,:,:)
+    real,allocatable :: FNEAR(:,:,:)
+    real,allocatable :: V(:,:,:)
+    real,allocatable :: VPRE1(:,:,:)
+    real,allocatable :: VPRE2(:,:,:)
+    real,allocatable :: VCOR1(:,:,:)
+    real,allocatable :: VCOR2(:,:,:)
     end module
 
     module AZIMUTH                                                 !方位角模块
@@ -125,13 +125,13 @@
     module RESULTV                                                 !测试点模块
     implicit none
     real,allocatable :: XEVAL(:,:)
-    real,allocatable :: VTEST(:,:,:,:,:)
-    real,allocatable :: RABUDATEST(:,:,:,:)
-    real,allocatable :: MIUTEST(:,:,:,:)
+    real,allocatable :: VTEST(:,:,:,:)
+    real,allocatable :: RABUDATEST(:,:,:)
+    real,allocatable :: MIUTEST(:,:,:)
     end module
 
     module DYNAMICS_STALL                                          !动态失速模块
-    real,allocatable :: TIAL(:,:,:,:)
+    real,allocatable :: TIAL(:,:,:)
     end module
 
     module C81                                                     !翼型特性表
@@ -270,7 +270,7 @@
     integer NOdeNEAR
     integer NCELLNEAR
     integer,allocatable :: ICELL(:,:)
-    integer,allocatable :: MCELL(:,:,:,:)
+    integer,allocatable :: MCELL(:,:,:)
     integer,allocatable :: ICELLBLAde(:,:)
     integer,allocatable :: ICELLNEAR(:,:)
     real,allocatable :: COOR(:,:)
