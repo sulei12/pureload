@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<compution_control_definition>
+        <comment>
+                This is a template file for the xmlreader program.
+                The template defines solver parameters for helicopter aeroelasticity solver. 
+
+                By Shuai Deng, Tsinghua University, 2015/12/14 
+        </comment>
+        <options strict="yes" dynamicstrings="yes" rootname="compution_control"/>
+        <comment> 计算类型 0 - 自由尾迹 1 - 旋翼动力学</comment>
+        <variable name="compution_type" type="integer">
+        <comment> 求解器参数文件名 </comment>
+        <variable name="solver_file_name" type="word" length="80"></variable>
+        <comment> 直升机参数文件名 </comment>
+        <variable name="helicopter_file_name" type="word" length="80"></variable>
+        <comment> 飞行状态参数文件名 </comment>
+        <variable name="flight_file_name" type="word" length="80"></variable>
+        <comment> 输出文件夹名 </comment>
+        <variable name="output_folder" type="word" length="80"></variable>
+</compution_control_definition>
+

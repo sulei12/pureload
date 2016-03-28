@@ -1,0 +1,19 @@
+<noise_input_parameters>
+        <comment>
+                This file is a description of 2MRT model helicopter rotor
+                at NASA Langley Research Center.
+        </comment>
+        
+        
+        <comment> Ee </comment>
+        
+         
+              <comment> 文件夹目录 </comment>
+              <noise_file_name>  opt_grid\new 	   <noise_file_name>
+              <comment> solver输入文件名称 </comment>
+              <noise_solver_file_name>solver </noise_solver_file_name>
+              <comment> 状态飞行文件名称 </comment>
+              <noise_rotor_file_name>     uh1h_exp1   </noise_rotor_file_name>
+
+        
+</noise_input_parameters>

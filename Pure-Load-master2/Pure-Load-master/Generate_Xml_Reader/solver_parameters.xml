@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<solver_definition>
+        <comment>
+                This is a template file for the xmlreader program.
+                The template defines solver parameters for helicopter aeroelasticity solver. 
+
+                By Shuai Deng, Tsinghua University, 2014/9/22 
+        </comment>
+        <options strict="yes" dynamicstrings="yes" rootname="solver"/>
+        <comment> 方位角Lmax </comment>
+        <variable name="LMAX" type="integer"></variable>
+        <comment> 尾迹角KMAX </comment>
+        <variable name="KMAX" type="integer"></variable>
+        <comment> 尾迹圈数 </comment>
+        <variable name="NTURNS" type="integer"></variable>
+        <comment> 展向单元数N </comment>
+        <variable name="N" type="integer"></variable>
+        <comment> 弦向单元数NC </comment>
+        <variable name="NC" type="integer"></variable>
+        <comment> 最大迭代步数 </comment>
+        <variable name="ITMAX" type="integer"></variable>
+        <comment> 近尾迹方位角 </comment>
+        <variable name="NNEAR" type="integer"></variable>
+        <comment> 尾迹边界圈数 </comment>
+        <variable name="NTURN_BOUND" type="integer"></variable>
+        
+        
+        <comment>测试点数目 </comment>
+        <variable name="Ntest" type="integer" default="24">
+          
+        <comment> Wake Type </comment>
+        <variable name="IP_WAKE_TYPE" type="integer" default="0">
+        	
+        <comment> 是否使用非定常模型计算翼型气动力 0- none 1- leishman beddos 模型 </comment>
+        <variable name="IP_UNSTEADY_MODEL" type="integer" default="0">
+        <comment> 是否继续之前的迭代结果 0- 否 1- 是 </comment>
+        <variable name="IP_CONTINUE_ITER" type="integer" default="0">
+        <comment> 气动求解控制 0- 均匀入流 1- 均匀入流+预定尾迹 2- 均匀入流+预定尾迹+自由尾迹 </comment>
+        <variable name="IP_WAKE" type="integer" default="0">
+        <comment> 飞行状态 0- 未输入 1- 悬停 其他- 前飞 </comment>
+        <variable name="IFWRD" type="integer" default="0">
+        <comment> 悬停计算最大迭代数 </comment>
+        <variable name="ITRMAX" type="integer">
+        <comment> 初值迭代报告间隔 </comment>
+        <variable name="NRPT" type="integer">			
+        <comment> 非线性周期最大迭代数 </comment>
+        <variable name="NPRD" type="integer">	
+        <comment> 周期迭代报告间隔 </comment>
+        <variable name="NSEG" type="integer">			
+        <comment> 周期迭代收敛精度 </comment>
+        <variable name="EPSD" type="double">
+        <comment>  周期迭代收敛精度  </comment>
+        <variable name="EPSV" type="double">			
+        <comment> 周期迭代收敛精度   </comment>
+        <variable name="EPSA" type="double">	
+        <comment> NEWMARK参数 beta  </comment>
+        <variable name="BN1" type="double">			
+        <comment> Newmark参数，gamma  </comment>
+        <variable name="BN2" type="double">
+        <comment> 打印标志  </comment>
+        <variable name="IPRINT" type="double">			
+        <comment> 入流类型 </comment>
+        <variable name="IFLOW" type="integer">			
+        <comment> 入流是否无量纲化 </comment>
+        <variable name="indu_dim_less" type="integer">	
+        <comment>  气动载荷输出剖面位置</comment>
+        <variable name="RAIR" type="double-array">			
+        <comment>  结构载荷输出剖面位置</comment>
+        <variable name="RMOM" type="double-array">
+        <comment> 计算模态数目 </comment>
+        <variable name="NF" type="integer">			
+        <comment>  </comment>
+        <variable name="NMOD" type="integer">	
+        <comment>  </comment>
+        <variable name="SHIFT" type="double">			
+        <comment>  </comment>
+        <variable name="SCAL" type="double">
+</solver_definition>

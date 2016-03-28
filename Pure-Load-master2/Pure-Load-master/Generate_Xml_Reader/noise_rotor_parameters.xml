@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<noise_rotor_info>
+  <comment>
+    This is a template file for the xmlreader program.
+    The template defines the data structure for helicopter 
+    aeromechanics analysis.
+
+    By Shuai Deng, Tsinghua University, 8014/3/25 
+  </comment>
+
+
+
+    
+    <options strict="yes" dynamicstrings="yes" rootname="noise_rotor"/>
+    
+    <comment> 观察时间 </comment>
+    <variable name="T_VISIT_INPUT" type="real"></variable>
+    <comment> 观察位置 </comment>
+    <variable name="X_VISIT_INPUT" type="real-array"></variable>
+    
+    <comment> 来流速度 </comment>
+    <variable name="V_INF_INPUT" type="real-array"></variable>
+    
+    
+    <typedef name="rotortype">
+    
+      <comment> 桨叶片数 </comment>
+      <component name="NBLADE_INPUT" type="integer"></component>
+      <comment> 桨叶间距分布 </comment>
+      <component name="BLADE_SPACING_INPUT" type="real-array"></component>
+      
+      
+      <comment> 桨叶起始半径 </comment>
+      <component name="R_BLADE_BEGIN_INPUT" type="real"></component>        
+      <comment> 桨叶终止半径 </comment>
+      <component name="R_BLADE_END_INPUT" type="real"></component>        
+      
+      <comment> 桨叶弦长 对应半径节点 数目 </comment>
+      <component name="N_CONTROL_INPUT" type="integer"></component>        
+      <comment> 桨叶弦长 对应半径节点 x/R </comment>
+      <component name="R_CONTROL_INPUT" type="real-array"></component>        
+      <comment> 节点对应弦长 </comment>
+      <component name="C_BLADE_INPUT" type="real-array"></component>        
+      
+      <comment> 旋翼轴前倾角 </comment>
+      <component name="AL_ROTOR_INPUT" type="real"></component>
+      
+      <comment> 旋翼转速, [rad/s] </comment>
+      <component name="OMEGA_INPUT" type="real"></component>
+      
+      <comment> 挥舞角(beta0，beta1c，beta1s), [deg] </comment>
+      <component name="BETA_INPUT" type="real-array"></component>
+      
+      <comment> 操纵量(theta0，theta1c，theta1s), [deg] </comment>
+      <component name="THET_INPUT" type="real-array"></component>
+      
+      <comment> 桨叶负扭, [deg] </comment>
+      <component name="THETT" type="real"></component>
+      
+    
+    </typedef>
+    
+    <variable name="rotor1" type="rotortype"/>
+    
+      
+    <comment> 空气密度 </comment>
+    <variable name="RHO_INPUT" type="real"></variable>
+    <comment> 空气声速 </comment>
+    <variable name="VSPEED_INPUT" type="real"></variable>
+    
+
+  
+</noise_rotor_info>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<noise_definition>
+	<comment>
+		This is a template file for the xmlreader program.
+		The template defines the data structure for helicopter 
+		aeromechanics analysis.
+
+		By Shuai Deng, Tsinghua University, 8014/3/25 
+	</comment>
+
+  <options strict="yes" dynamicstrings="yes" rootname="noise_input_parameters"/>
+        <comment>
+                2014/10/23 14:33:13
+        </comment>
+        
+        <comment> NOISE参数文件名 </comment>
+        <variable name="noise_file_name" type="word" length="80"></variable>
+        <comment> 求解参数文件名 </comment>
+        <variable name="noise_solver_file_name" type="word" length="80"></variable>
+        <comment> 飞行状态参数文件名 </comment>
+        <variable name="noise_rotor_file_name" type="word" length="80"></variable>
+
+</noise_definition>

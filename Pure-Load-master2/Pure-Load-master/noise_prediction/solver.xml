@@ -1,0 +1,57 @@
+<noise_solver_parameters>
+        <comment>
+                This file is a description of 2MRT model helicopter rotor
+                at NASA Langley Research Center.
+
+                The data source is NASA Technical Memorandum 100541,
+                Inflow Measurement Made with a Laser Velocimeter on a 
+                Helicopter Model in Forward Flight( Volume 1, Rectangular 
+                Planform Blades at an Advance Ratio of 0.15),
+                April 1988.
+
+                The four-bladed rotor hub is fully articulated with viscous
+                dampers for lead-lag motion and coincident flap and lag hinges.
+
+                Compiled by Shuai Deng, Tsinghua University, 2014/7/21
+        </comment>
+        
+        
+        <comment> EXP1 </comment>
+        
+        
+        
+              <comment> 时间采样数目:要求是2的方幂 </comment>
+              <N_TIME_INPUT>  512  </N_TIME_INPUT>
+              
+              
+              
+              <comment> 展向分段数目 </comment>
+              <N_R_INPUT>20</N_R_INPUT>
+							<comment> 展向分段类型：1.均布（default） 0.非均布 </comment>
+							<EQRGRID> 1< /EQRGRID>
+							<comment> 展向分段参数1：桨根间距（若为均布，赋0） </comment>
+							<R_PARA1> 0  </R_PARA1>
+							<comment> 展向分段参数2：桨尖间距 </comment>
+							<R_PARA2> 0.025 </R_PARA2>
+		
+              
+              
+              <comment> 弦向分段数目 </comment>
+              <N_C_INPUT>50</N_C_INPUT>
+							<comment> 弦向分段类型：1.均布（default） 0.非均布 </comment>
+							<EQCGRID> 0 < /EQCGRID>
+							<comment> 弦向分段参数1：翼型前缘间距 </comment>
+							<C_PARA1> 0.001 </C_PARA1>
+							<comment> 弦向分段参数2：翼型后缘间距</comment>
+							<C_PARA2> 0 </C_PARA2>
+							
+							
+							
+              <comment> 输入数据的时间步长数目 </comment>
+              <NTIME_INPUT>36</NTIME_INPUT>
+              <comment> 输出时间周期数目 </comment>
+              <NPEROID_INPUT>  1 </NPEROID_INPUT>
+
+        
+        
+</noise_solver_parameters>

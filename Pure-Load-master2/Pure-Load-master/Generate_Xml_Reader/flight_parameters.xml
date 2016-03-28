@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flight_definition>
+	<comment>
+		This is a template file for the xmlreader program.
+		The template defines the data structure for flight 
+		aeromechanics analysis.
+
+		By Shuai Deng, Tsinghua University, 2014/3/25 
+	</comment>
+
+	<options strict="yes" dynamicstrings="yes" rootname="flight_infomation"/>
+	
+	
+	
+
+	<typedef name="flight_info"></component>
+	<component name="flight_number" type="integer"></component>
+	<comment>
+		The flight is classified by:
+		1 - hover
+		2 - low speed level flight
+		3 - high speed level flight
+		4 - turning flight
+		5 - autorotation
+	</comment>	
+	<component name="flight_description" type="integer" default="1"></component>
+	<component name="altitude" type="real"></component>
+	<component name="velocity" type="real"></component>
+	<component name="mass" type="real"></component>
+	<component name="temperature" type="real"></component>
+	<component name="pressuare" type="real"></component>
+	<component name="rou" type="real"></component>
+	<component name="load_factor" type="real"></component>
+	<component name="power" type="real"></component>
+</typedef>
+
+<variable name="flight" type="flight_info"/>
+</flight_definition>

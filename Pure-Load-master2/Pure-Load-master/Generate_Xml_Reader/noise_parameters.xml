@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<noise_definition>
+	<comment>
+		This is a template file for the xmlreader program.
+		The template defines the data structure for helicopter 
+		aeromechanics analysis.
+
+		By Shuai Deng, Tsinghua University, 8014/3/25 
+	</comment>
+
+	<options strict="yes" dynamicstrings="yes" rootname="noise_prediction"/>
+	>
+
+		<comment> 输出文件名称 </comment>
+		<variable name="NOISE_OUTPUT_FILENAME_INPUT" type="word" length="80"></variable>
+
+		<comment> 展向分段数目 </comment>
+		<variable name="N_R_INPUT" type="integer"></variable>
+		<comment> 弦向分段数目 </comment>
+		<variable name="N_C_INPUT" type="integer"></variable>
+		<comment> 时间步数 </comment>
+		<variable name="NTIME_INPUT" type="integer"></variable>	
+		<comment> 输出时间周期数目 </comment>
+		<variable name="NPEROID_INPUT" type="integer"></variable>	
+		
+		
+		
+		
+		<comment> 观察时间 </comment>
+		<variable name="T_VISIT_INPUT" type="real"></variable>
+		<comment> 观察位置 </comment>
+		<variable name="X_VISIT_INPUT" type="real-array"></variable>
+		
+		<comment> 来流速度 </comment>
+		<variable name="V_INF_INPUT" type="real-array"></variable>
+		
+		
+		<typedef name="rotortype">
+		
+			<comment> 桨叶片数 </comment>
+			<component name="NBLADE_INPUT" type="integer"></component>
+			
+			<comment> 桨叶起始半径 </comment>
+			<component name="R_BLADE_BEGIN_INPUT" type="real"></component>        
+			<comment> 桨叶终止半径 </comment>
+			<component name="R_BLADE_END_INPUT" type="real"></component>        
+			
+			<comment> 桨叶弦长 对应半径节点 数目 </comment>
+			<component name="N_CONTROL_INPUT" type="integer"></component>        
+			<comment> 桨叶弦长 对应半径节点 x/R </comment>
+			<component name="R_CONTROL_INPUT" type="real-array"></component>        
+			<comment> 节点对应弦长 </comment>
+			<component name="C_BLADE_INPUT" type="real-array"></component>        
+			
+			<comment> 旋翼轴前倾角 </comment>
+			<component name="AL_ROTOR_INPUT" type="real"></component>
+			
+			<comment> 旋翼转速, [rad/s] </comment>
+			<component name="OMEGA_INPUT" type="real"></component>
+		
+		</typedef>
+		
+		<variable name="rotor1" type="rotortype"/>
+		
+			
+		<comment> 空气密度 </comment>
+		<variable name="RHO_INPUT" type="integer"></variable>
+		<comment> 空气声速 </comment>
+		<variable name="VSPEED_INPUT" type="integer"></variable>
+		
+			
+		
+		
+	
+
+	
+			
+	
+</noise_definition>

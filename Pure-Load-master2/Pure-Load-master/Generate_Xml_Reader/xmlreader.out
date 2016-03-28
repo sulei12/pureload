@@ -1,0 +1,3778 @@
+ XML_OPEN: opened file helicopter_parameters.xml
+ at LU-number:          11
+ XML_GET - tag found: helicopter_definition
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           7
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            7
+   ><
+   >		This is a template file for the xmlreader program.<
+   >		The template defines the data structure for helicopter<
+   >		aeromechanics analysis.<
+   ><
+   >		By Shuai Deng, Tsinghua University, 2014/3/25<
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   ><
+   >	<
+ XML_GET - tag found: options
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           3
+ tag: 
+ options                                                                        
+  
+ attribs:            3
+   strict = yes
+   dynamicstrings = yes
+   rootname = helicopter
+ data:            3
+   ><
+   >	<
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = airfoil_section
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型段编号<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = id
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型起始半径, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = airfoil_start_position
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型终止半径, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = airfoil_end_position
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型起始弦长, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = airfoil_start_chord
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型终止弦长, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = airfoil_end_chord
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型编号<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = airfoil_number
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >后掠角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = swept_back
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   >	<
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >下反角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = dihedral
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >抛物型<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = parabolic
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   ><
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = airfoil
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型编号<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = id
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型名称<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = airfoil_name
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型C81文件名称<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = C81_file_name
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型表面坐标文件名称<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = XY_file_name
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           4
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            4
+   ><
+   >	<
+   ><
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = rotor
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶片数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = number_of_blades
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼类型: 1 - 铰接式 2 - 翘翘板式 3 - 无铰式 4 - 无轴承式<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = hub_type
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨毂位置（机体坐标系下）, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = hub_position
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼轴指向位置（机体坐标系下）, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = shaft_direction
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼半径, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   >	<
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = rotor_radius
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶挥舞偏置量, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = flap_hinge_position
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶摆振偏置量, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = lag_hinge_position
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶变距偏置量, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_bearing_position
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶负扭类型：1 - 线性负扭 2 - 非线性负扭<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = twist_type
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶线性负扭角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = twist_angle
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶非线性负扭文件名<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = twist_file_name
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶非线性负扭分段数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = twist_sections
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶非线性负扭站位半径(r/R)<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = r_tw
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶非线性负扭负扭角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = theta_tw
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶翼型分段数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = number_of_airfoil_section
+   type = integer
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶翼型段列表<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = airfoil_sections
+   type = airfoil_section
+   dimension = 1
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶剖面特性文件名<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = section_file_name
+   type = word
+   lenght = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶平均弦长, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = chord
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶洛克数, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = lock_number
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >操纵量(总距，纵向A1，横向B1), [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_input
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >挥舞角(beta0，beta1c，beta1s), [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = flap_angle
+   type = real-array
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼轴前倾角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = alpha_s
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼轴侧倾角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = gamma_s
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨毂高度, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = hub_height
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼拉力系数, [m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = thrust_coefficient
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼入流比, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = inflow_ratio
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼前进比, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = advance_ratio
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼转速, [rad/s]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = rotational_speed
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >挥舞固有频率, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = flap_frequency
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >挥舞铰等效弹簧刚度, [N m/deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = flap_hinge_stiffness
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >挥舞惯量, [kg m^2]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = flap_inertia
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >预锥角, [deg]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = precone_angle
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨叶静矩, [kg m]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = blade_first_moment_of_inertia
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >挥舞变距调节系数, [1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_flap_coupling
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼实度，[1]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = solidity
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨尖速度，[m/s]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = tip_velocity
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   >	<
+   >		<
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >桨盘面积，[m^2]<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = area
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   >	<
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = fuselage
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = roll_inertia
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_inertia
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = yaw_inertia
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = roll_angle
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_angle
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = yaw_angle
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = roll_rate
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = pitch_rate
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = yaw_rate
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = aeroforce_file
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   ><
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = engine
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            3
+   name = engine_name
+   type = word
+   length = 80
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   >	<
+   >	<
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = landing_gear
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = stiffness
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >		<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = damping_ratio
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   >	<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   >	<
+   ><
+ XML_GET - tag found: typedef
+ XML_GET - number of attributes:           1
+ XML_GET - number of data lines:           2
+ tag: 
+ typedef                                                                        
+  
+ attribs:            1
+   name = control_system
+ data:            2
+   ><
+   >	<
+ XML_GET - tag found: component
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           1
+ tag: 
+ component                                                                      
+  
+ attribs:            2
+   name = K_theta
+   type = real
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ component                                                                      
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ typedef                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >由此开始定义直升机参数的内容<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           3
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            3
+   ><
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >翼型列表<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            3
+   name = airfoils
+   type = airfoil
+   dimension = 1
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           3
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = number_of_airfoils
+   type = integer
+ data:            3
+   ><
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >旋翼列表<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            3
+   name = rotors
+   type = rotor
+   dimension = 1
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           3
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = number_of_rotors
+   type = integer
+ data:            3
+   ><
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = airframe
+   type = fuselage
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >单元数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NE
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >高斯积分点数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NGS
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >单元自由度数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NB
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >方位角划分数目<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NP
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >坐标转换数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NU
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >铰数目<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NZ
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >输出气动载荷的位置数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NRAIR
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >输出结构载荷的位置数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NRMOM
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >总节点数<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            3
+   name = NDE
+   type = integer
+   default = 0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >坐标转换次序<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = NRTR
+   type = integer-array
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   >剖面特性文件名称<
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           3
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            3
+   name = section_property_file_name
+   type = word
+   length = 80
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = DD
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = AA
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = alfaz
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = nezh
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = BETA0
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = K_flap
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = c_flap
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = k_lag
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = c_lag
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = k_pitch
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = c_pitch
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = k_matcher_lag
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = k_matcher_flap
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = c_matcher_lag
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = c_matcher_flap
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = flap_offset
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = pitch_horn_length
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = I_FH
+   type = integer
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = I_LH
+   type = integer
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = I_PB
+   type = integer
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = IM
+   type = integer
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = ROA
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = OMG
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = VF
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = CT
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = alpha_tpp
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = alpha_rotor
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = psi_rotor
+   type = double
+ data:            2
+   >	<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = PCH0
+   type = double
+ data:            2
+   >			<
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = CC
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: comment
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           2
+ tag: 
+ comment                                                                        
+  
+ attribs:            0
+ data:            2
+   ><
+   ><
+ XML_GET - tag found: variable
+ XML_GET - number of attributes:           2
+ XML_GET - number of data lines:           2
+ tag: 
+ variable                                                                       
+  
+ attribs:            2
+   name = SS
+   type = double
+ data:            2
+   ><
+   ><
+ XML_GET - end of file found - LU-number:          11
+ XML_GET - number of attributes:           0
+ XML_GET - number of data lines:           1
+ tag: 
+ helicopter_definition                                                          
+  
+ attribs:            0
+ data:            1
+   ><
+ XML_OPEN: file does not exist: .xml
+ XML_GET on closed file 
+ XML_GET on closed file 
+ tag: 
+ helicopter_definition                                                          
+  
+ attribs:            0
+ data:            0

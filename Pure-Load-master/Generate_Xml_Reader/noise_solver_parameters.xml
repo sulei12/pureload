@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<noise_solver>
+	
+	<options strict="yes" dynamicstrings="yes" rootname="noise_solver_parameters"/>
+	
+
+		<comment> 时间采样点数目 </comment>
+		<variable name="N_TIME_INPUT" type="integer"></variable>
+		
+		
+		<comment> 展向分段数目 </comment>
+		<variable name="N_R_INPUT" type="integer"></variable>
+		
+		<comment> 展向分段类型：1.均布（default） 0.非均布 </comment>
+		<variable name="EQRGRID" type="integer" default="1"></variable>
+		<comment> 展向分段参数1：桨尖间距（若为均布，赋0） </comment>
+		<variable name="R_PARA1" type="real" default="0"></variable>
+		<comment> 展向分段参数2：桨根间距 </comment>
+		<variable name="R_PARA2" type="real" default="0"></variable>
+		
+		
+		
+		<comment> 弦向分段数目 </comment>
+		<variable name="N_C_INPUT" type="integer"></variable>
+		<comment> 弦向分段类型：1.均布（default） 0.非均布 </comment>
+		<variable name="EQCGRID" type="integer" default="1"></variable>
+		<comment> 弦向分段参数1：翼型前缘间距 </comment>
+		<variable name="C_PARA1" type="real" default="0"></variable>
+		<comment> 弦向分段参数2：翼型后缘间距</comment>
+		<variable name="C_PARA2" type="real" default="0"></variable>
+		
+		
+		<comment> 时间步数 </comment>
+		<variable name="NTIME_INPUT" type="integer"></variable>	
+		<comment> 输出时间周期数目 </comment>
+		<variable name="NPEROID_INPUT" type="integer"></variable>	
+	
+</noise_solver>
