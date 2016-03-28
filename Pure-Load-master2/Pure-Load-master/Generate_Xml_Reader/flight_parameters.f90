@@ -5,6 +5,8 @@ module xml_data_flight_parameters
    implicit none
    integer, private :: lurep_
    logical, private :: strict_
+   
+   
 
 type flight_info
    integer                                         :: flight_number
